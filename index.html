@@ -1,0 +1,80 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK,PAPER,SCISSOR GAME</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>ROCK PAPER SCISSORS</h1>
+    <div class="choices">
+      <div class="choice" id="Rock">
+        <img src="./images/rock.png" />
+      </div>
+      <div class="choice" id="Paper">
+        <img src="./images/paper.png" />
+      </div>
+      <div class="choice" id="Scissor">
+        <img src="./images/scissors.png" />
+      </div>
+    </div>
+
+    <div class="scoreBoard">
+      <div class="user">
+        <p id="userScore">0</p>
+        <p>YOU</p>
+      </div>
+      <div class="computer">
+        <p id="computerScore">0</p>
+        <p>COMPUTER</p>
+      </div>
+    </div>
+
+    <div class="msgContainer">
+      <p id="msg">Play your move</p>
+    </div>
+    <br />
+    <div class="reset">
+      <button id="resetButton">Reset</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock,Paper,Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ROCK , PAPER & SCISSORS</h1>
+      <div class="game">
+        <img src="rock.png" alt="rock" class="choices" id="rock" />
+        <img src="paper.png" alt="paper" class="choices" id="paper" />
+        <img src="scissors.png" alt="scissors" class="choices" id="scissors" />
+      </div>
+    </div>
+    <div class="score">
+      <div class="computer">
+        <p id="computerScore">0</p>
+        <p id="computerMsg">Computer</p>
+      </div>
+      <div class="user">
+        <p id="userScore">0</p>
+        <p id="userMsg">You</p>
+      </div>
+    </div>
+    <div class="msgContainer">
+      <p id="msg" class="expand">Play Your Move</p>
+    </div>
+    <button id="newGame">New Game</button>
+    <h3 class="over hide">Game Over</h3>
+
+    <script src="index.js"></script>
+  </body>
+</html>
